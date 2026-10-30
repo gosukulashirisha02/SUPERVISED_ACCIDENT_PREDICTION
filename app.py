@@ -69,7 +69,7 @@ st.markdown("""
 
 # st.title("🚨TRAFFIC ACCIDENT SEVERITY PREDICTION")
 
-data=pd.read_csv(r"C:\Users\Gosukula Shirisha\OneDrive\Desktop\ML\ML report")
+data=pd.read_csv(r"C:\Users\Gosukula Shirisha\OneDrive\Desktop\ML Supervised Project\MLreport")
 
 data['Accident_Severity']=data['Accident_Severity'].map({'Minor':0,'Moderate':1,'Severe':2})
 
